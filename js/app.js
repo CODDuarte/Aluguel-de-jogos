@@ -46,18 +46,5 @@ function alterarStatus(Id) {
 //executa o bloco else adicionando o elemento rented, adicona a palavra devolver e o 
 // elemento clase no botao.
 
-essaPalavraEUmPalindromo();
 
-function essaPalavraEUmPalindromo() {
-    let palavra = 'Arvore';
-    let separandoAsLetrasDaPalavra = palavra.toLowerCase().split('');
-    let palavraInvertida = separandoAsLetrasDaPalavra.slice().reverse().join('');
-   
-
-    if (palavra.toLowerCase() === palavraInvertida) {
-        console.log('A palavra ' + palavra + ' é um palíndromo!');
-    } else {
-        console.log('A palavra ' + palavra + ' não é um palíndromo!');
-    }
-}
 
